@@ -2,12 +2,14 @@
 
 This project creates a report of all API changes between two different JDK versions,
 using [JapiCmp](https://github.com/siom79/japicmp).
-You can use this tool for instance to compare OpenJDK 9 and OpenJDK 10, OpenJDK 9 and Oracle JDK 9 etc.
+You can use this tool for instance to compare OpenJDK 8 and OpenJDK 9,OpenJDK 9 and OpenJDK 10, OpenJDK 9 and Oracle JDK 9 etc.
 
 ## Published reports
 
 Example reports created by this generator can be found in the _docs_ directory:
 
+* API comparison of OpenJDK 1.8.0_151 and OpenJDK 9.0.1: [jdk8-jdk9-api-diff.html](https://gunnarmorling.github.io/jdkapidiff/jdk8-jdk9-api-diff.html)
+(it's 16 MB, so loading may take a bit)
 * API comparison of OpenJDK 9.0.4 and OpenJDK 10-b46: [jdk9-jdk10-api-diff.html](https://gunnarmorling.github.io/jdk-api-diff/jdk9-jdk10-api-diff.html)
 * API comparison of OpenJDK 10.0.2 and OpenJDK 11+28: [jdk10-jdk11-api-diff.html](https://gunnarmorling.github.io/jdk-api-diff/jdk10-jdk11-api-diff.html)
 (it's 15 MB, so loading may take a bit)
